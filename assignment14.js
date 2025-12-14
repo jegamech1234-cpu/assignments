@@ -1,5 +1,5 @@
 //  1. String
-let name = "Ramesh";
+let name = "jegadeesh";
 let greeting = "Hello, World!";
 console.log(name);
 console.log(greeting);
