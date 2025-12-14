@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Typography Demo</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="p-4">
+    <div class="container">
+      <!-- 1. TEXT ALIGNMENT -->
+      <h3 class="mb-3">1. Text Alignment</h3>
+      <p class="text-start">Left aligned text (default)</p>
+      <p class="text-center">Center aligned text</p>
+      <p class="text-end">Right aligned text</p>
+      <!-- Responsive Alignment -->
+      <p class="text-sm-start text-md-center text-lg-end bg-light p-2">
+        Responsive alignment:
+        <small>(Left on small → center on medium → right on large)</small>
+      </p>
+
+      <hr />
+
+      <!-- 2. TEXT COLORS -->
+      <h3 class="mb-3">2. Text Colors</h3>
+      <p class="text-primary">Primary Text</p>
+      <p class="text-success">Success Text</p>
+      <p class="text-danger">Danger Text</p>
+      <p class="text-warning">Warning Text</p>
+      <p class="text-info">Info Text</p>
+      <p class="text-muted">Muted/Gray Text</p>
+
+      <hr />
+
+      <!-- 3. BACKGROUND COLORS -->
+      <h3 class="mb-3">3. Background Colors</h3>
+      <p class="bg-primary text-white p-2">Primary Background</p>
+      <p class="bg-success text-white p-2">Success Background</p>
+      <p class="bg-warning p-2">Warning Background</p>
+      <p class="bg-dark text-white p-2">Dark Background</p>
+
+      <hr />
+
+      <!-- 4. FONT WEIGHT -->
+      <h3 class="mb-3">4. Font Weight</h3>
+      <p class="fw-bold">Bold text</p>
+      <p class="fw-semibold">Semi-bold text</p>
+      <p class="fw-normal">Normal weight text</p>
+      <p class="fw-light">Light text</p>
+
+      <hr />
+
+      <!-- 5. TEXT WRAP & OVERFLOW -->
+      <h3 class="mb-3">5. Text Wrap & Overflow</h3>
+
+      <!-- Wrap -->
+      <p class="text-wrap bg-light p-2" style="width: 200px">
+        This is a very long line of text and Bootstrap will wrap it inside the
+        box.
+      </p>
+
+      <!-- No Wrap -->
+      <p class="text-nowrap bg-light p-2" style="width: 200px">
+        This text will NOT wrap and may overflow outside the box.
+      </p>
+
+      <!-- Text Truncate -->
+      <p class="text-truncate bg-light p-2" style="width: 200px">
+        This text is very long and will be truncated with an ellipsis...
+      </p>
+
+      <!-- Break word -->
+      <p class="text-break bg-light p-2" style="width: 200px">
+        Supercalifragilisticexpialidociousisaverylongwordthatwillbreak
+      </p>
+    </div>
+  </body>
+</html>
