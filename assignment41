@@ -1,0 +1,25 @@
+<!-- ```js
+DOM
+Scenario: Change Text on Click A tag shows text. 
+Question: Change the text to “Welcome” when a button is clicked.
+``` -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Text on Click</title>
+</head>
+<body>
+
+    <p id="msg">Hello</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("msg").textContent = "Welcome";
+        }
+    </script>
+
+</body>
+</html>
